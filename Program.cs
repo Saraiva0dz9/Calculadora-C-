@@ -29,11 +29,52 @@ namespace Calculator
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
-                case 5: System.Environment.Exit(0); break;
+                case 5: PerguntaDeAvaliação(); break;
                 default: Menu(); break;
              }
         }
 
+        static void PerguntaDeAvaliação(){
+               Console.Clear();
+               Console.WriteLine("Gostou dessa aplicação?");
+               Console.WriteLine("1 - Sim");
+               Console.WriteLine("2 - Não");
+               int v1 = int.Parse( Console.ReadLine());
+                
+                if (v1 == 1) {
+                    Console.WriteLine("Obrigado!");
+                    Thread.Sleep(2000);
+                    MensagemDeConfirmação();
+                }
+
+                else;
+
+                    Console.WriteLine("Obrigado!");
+                    Thread.Sleep(2000);
+                    MensagemDeConfirmação();
+        }
+
+        static void MensagemDeConfirmação() { 
+               Console.Clear();
+               Console.WriteLine("Tem certeza que deseja sair da aplicação?");
+               Console.WriteLine("1 - Sim");
+               Console.WriteLine("2 - Não");
+               int v1 = int.Parse( Console.ReadLine());
+                
+                if (v1 == 1) {
+                    
+                    Console.WriteLine("Obrigado por ultilizar a aplicação!!");
+                    Thread.Sleep(2000);
+                    System.Environment.Exit(0);
+                }
+
+                else;
+
+                    Menu();
+               
+
+
+        }
 
         static void Soma(){
             Console.Clear();
