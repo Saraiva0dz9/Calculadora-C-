@@ -13,6 +13,7 @@ namespace Calculator
         static void Menu(){
             Console.Clear();
 
+            Console.WriteLine("Ola seja bem vindo!!");
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine("1 - Soma");
             Console.WriteLine("2 - Subtracao");
