@@ -8,9 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\leoga\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Leonardo.Amaral\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -18,26 +16,20 @@
       "projectUniqueName": "C:\\Dev\\Calculadora-C-\\Calculator.csproj",
       "projectName": "Calculator",
       "projectPath": "C:\\Dev\\Calculadora-C-\\Calculator.csproj",
-      "packagesPath": "C:\\Users\\leoga\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Leonardo.Amaral\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\Calculadora-C-\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Leonardo.Amaral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.areco.tec.br/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
